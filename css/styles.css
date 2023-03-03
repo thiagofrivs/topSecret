@@ -41,6 +41,7 @@ section{
 /* Header */
 
 header{
+    z-index: 999;
     position: fixed;
     width: 100vw;
     background-image: url('../img/noise.png');
@@ -156,6 +157,10 @@ h1{
     margin-left: 1rem;
     font-size: 2rem;
     transform: rotateZ(180deg);
+}
+
+.bi-hand-index{
+    z-index: 1;
 }
 .sobre{
     margin-bottom: 2.5rem;
